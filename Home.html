@@ -6,45 +6,19 @@
     
     <script src="https://use.typekit.net/kxf0iwn.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
+	
+	<script language="JavaScript" type="text/javascript">
 
-    <link href="ExtremeHoneymoonsProject7.css" rel="stylesheet" type="text/css">
-
-<style type="text/css">
-
-
-	#thumbs, #image {
-		width: 900px;
-		text-align: center;
-		margin: 0 auto 0 auto;
-		color: #000;
-	}
-
-	#thumbs {
-		margin-top: 10px;
-	}
-
-			
-	#thumbs img {
-		border: solid 1px #000;
-		margin: 5px;
-	}
-
-	#image{
-		height:500px;
-	}
-
-	.instructions{
-		font-style:italic;
-	}
-
-</style>	
-
-
-<script language="JavaScript" type="text/javascript">
-
-
-	logo1.src = "./logo1.jpg"
-	logo2.src = "./logo2.jpg"
+	PrintButton1 = new Image
+	PrintButton2 = new Image
+	logo1 = new Image
+	logo2 = new Image
+if (document.images) {
+	PrintButton1.src = "Images/printpage6.gif"
+	PrintButton2.src = "Images/printpage7.gif"
+	logo1.src = "Images/logo1.jpg"
+	logo2.src = "Images/logo2.jpg"
 }
 
 
@@ -66,7 +40,7 @@
 			
 		);
 			
-		var imgPath = "./";
+		var imgPath = "Images/Fullsize/";
 		
 		function swapImage(imgID) {
 
@@ -93,9 +67,18 @@
 		
 
 </script>
+
+	
+
+    <link href="ExtremeHoneymoonsProject7.css" rel="stylesheet" type="text/css">
+
+	
+
+
+
 	
 </head>
-<body>
+<body onload="preloadImages()">
 	
 
 
@@ -103,12 +86,7 @@
     <!-- Navigation Menu -->
     <header id="header">
       <a class="site-logo" href="#">
-		<div id="logo">
-	<a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
-	onMouseOut="document.logo.src=logo1.src;">
-
-	<img src="./logo1.jpg" width="133" height="126" 
-	name="logo" alt="logo" style="border:none;"/>
+		<img src="Images/logo1.jpg" alt="Extreme Honeymoon Logo">
 		 
           
       </a>
@@ -150,37 +128,54 @@
 
         <!-- Artwork -->
         <section class="artworks">
-		<article class="artwork">
-			<div class="artwork-piece">
-                <div class="artwork-description">
-                <h2 class="artwork-title">Welcome to Extreme Honeymoons!</h2>	
-				<p class="artwork-text">We believe that any romantic trip starts with adventure, amazing destinations, and unforgettable experiences. We at Extreme Honeymoons strive to create and plan honeymoons around your interests, personalities, and any kind of wants you desire. Every honeymoon is based on you and what you are looking for; whther it be skydiving in Peru, the white sand and beaches in Maldives, or evena an array of outdoor activities on the coast of Oregon. Our goal is to make your first trip as a married couple the most fun and thrilling experience as possible!</p>
-					
-				<h2>Pick your Adventure</h2>
-					
-					
-		<div id="logo">
+            <article class="artwork">
+                <div class="artwork-piece">
+                   
+                </div>
+				<div align="center">
+
+
+
+
+
+<div id="logo">
 	<a href="logo.html" onMouseOver="document.logo.src=logo2.src;"
 	onMouseOut="document.logo.src=logo1.src;">
 
 
+
 	</a>
 </div>
-		
-				<div id="thumbs">
-		<img src="./Image1Sm.jpg" alt="Scuba Diving Adventure" onmouseover="swapImage(0);" ondragenter="swapImage(0);" />
-		<img src="./Image2Sm.jpg" alt="Hiking" onmouseover="swapImage(1);" ondragenter="swapImage(0);" ondragenter="swapImage(0);" />
-		<img src="./Image3Sm.jpg" alt="Biking in the Desert" onmouseover="swapImage(2);" ondragenter="swapImage(0);" ondragenter="swapImage(0);" />
-		<img src="./Image4Sm.jpg" alt="Daredevil Skiing" onmouseover="swapImage(3);" ondragenter="swapImage(0);" ondragenter="swapImage(0);" />
+
+<br />
+
+
+<div class="artwork-description">
+                <h2 class="artwork-title">Welcome to Extreme Honeymoons!</h2>	
+				<p class="artwork-text">We believe that the any romantic trip starts with adventure, amazing destinations, and unforgettable experiences. We at Extreme Honeymoons strive to create and plan honeymoons around your interests, personalities, and any kind of wants you desire. Every honeymoon is based on you and what you are looking for; whther it be skydiving in Peru, the white sand and beaches in Maldives, or evena an array of outdoor activities on the coast of Oregon. Our goal is to make your first trip as a married couple the most fun and thrilling experience as possible!</p>
+					
+				<h2>Pick your Adventure</h2>
+	<br>
+<div id="thumbs">
+		<img src="Images/Thumbnails/Image1Sm.jpg" alt="Scuba Diving Adventure" onmouseover="swapImage(0);" />
+		<img src="Images/Thumbnails/Image2Sm.jpg" alt="Hiking" onmouseover="swapImage(1);" />
+		<img src="Images/Thumbnails/Image3Sm.jpg" alt="Biking in the Desert" onmouseover="swapImage(2);" />
+		<img src="Images/Thumbnails/Image4Sm.jpg" alt="Daredevil Skiing" onmouseover="swapImage(3);" />
 		
 </div>
 
 	<div id="image">
 
-		<img id="theImage" src="./Image1Lg.jpg" alt="Scuba Diving Adventure" />
+		<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Scuba Diving Adventure" />
 		<h3 id="bottomText">Scuba Diving Adventure</h3>
-	
+	</div>
+                
 					
+					
+	
+	
+	<br>
+	<br>
 					
 				
 				<a class="see-more" href="#">See More</a>
