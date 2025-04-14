@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+/* Embedded Style Sheet */
+#container {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+section {
+	width: 900px;
+	margin: 0 auto;
+	background-image: url("./2colback.jpg");
+	background-repeat: repeat-y;
+	background-size: cover;
+	padding: 20px;
+}
+
+body {
+	background-color: #FFF8E1; /* Deep blue background */
+    color: #5D4037; /* Soft peach text */
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+article {
+	width: 800px;
+	margin: 20px;
+	padding: 20px;
+	background-color: #FFFFFF;
+	border-radius: 10PX;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+	font-size: 1em;
+	line-height: 1.6;
+	text-align: left;
+	
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 1em;
+  background-color: #8D6E63;
+  color: #FFFFFF; 
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 10px;  
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
+#nav {
+	float: right;
+	width: 30%;
+	height: 100%;
+	text-align: right;
+	
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#nav li {
+	margin: 10 px;
+}
+
+#nav a {
+	display: inline-block;
+	background-color: #FFFFFF;
+	color: #8D6E63;
+	padding: 10px 15px;
+	border-radius: 6px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+#nav a:hover {
+	background-color: #FFCC80;
+	color: #000;
+	
+}
+
+#logo {
+	float: left;
+	height: 100px;
+	margin-right: 20px;
+}
+
+#banner {
+	float: left;
+	height: 100px;
+}
+
+h1 {
+	font-size: 2em;
+	color: #2A0A5E;   
+}
+
+h2 {
+	font-size: 1.5em; 
+    color: #37474F;   
+}   
+
+p {
+	font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+/* Anchor Styles */
+a:link {
+	color: #00897B; /* Light green for unvisited links */
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #26A69A; /* Soft yellow for visited links */
+}
+
+a:hover {
+    color: #FF6B6B; /* Bright red when hovered */
+    text-decoration: underline;
+    }
+
+hr {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    border: 1px solid #6200EA;
+}
+
+
+.thumbnailleft{
+	float: left;
+	padding-right: 10px;
+}
+
+.thumbnailright{
+	float: right;
+	padding-left: 10px;
+}
