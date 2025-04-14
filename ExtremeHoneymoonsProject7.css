@@ -50,7 +50,7 @@ article {
 }
 
 .logo:hover {
-  background-image: url('Images/logo2.jpg');
+  background-image: url('./logo2.jpg');
 }
 
 #header {
