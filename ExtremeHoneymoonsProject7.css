@@ -39,6 +39,20 @@ article {
 	
 }
 
+.logo {
+  display: block;
+  width: 300px; /* Adjust width to match your logo */
+  height: 150px; /* Adjust height to match your logo */
+  background-image: url('Images/logo1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.logo:hover {
+  background-image: url('Images/logo2.jpg');
+}
+
 #header {
   width: 100%;
   text-align: center;
