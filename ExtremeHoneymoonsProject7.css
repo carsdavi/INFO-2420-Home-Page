@@ -10,7 +10,7 @@
 section {
 	width: 900px;
 	margin: 0 auto;
-	background-image: url("./2colback.jpg");
+	background-image: url("Images/2colback.jpg");
 	background-repeat: repeat-y;
 	background-size: cover;
 	padding: 20px;
@@ -18,7 +18,7 @@ section {
 
 body {
 	background-color: #FFF8E1; /* Deep blue background */
-    color: #FFFFFF; /* Soft peach text */
+    color: #5D4037; /* Soft peach text */
     font-family: Arial, sans-serif;
     font-size: 100%;
     line-height: 1.6;
@@ -44,7 +44,7 @@ article {
   display: block;
   width: 650px; /* Adjust width to match your logo */
   height: 350px; /* Adjust height to match your logo */
-  background-image: url('./logo1.jpg');
+  background-image: url('Images/logo1.jpg');
   background-size: contain;
   background-repeat: no-repeat;
 	background-position: center;
@@ -53,7 +53,7 @@ float: right;
 }
 
 .logo:hover {
-  background-image: url('./logo2.jpg');
+  background-image: url('Images/logo2.jpg');
 }
 
 #header {
@@ -124,14 +124,25 @@ float: right;
 h1 {
 	font-size: 2em;
 	color: #2A0A5E;
-	text-align: center;
+	text-align: right;
+	
 }
 
 h2 {
 	font-size: 1.5em; 
     color: #37474F;
-	text-align: center;
+	text-align: right;
+	color: #5D4037
 }   
+
+h3 {
+    color: #5D4037; /* Soft peach text */
+    font-family: Arial, sans-serif;
+    font-size: 110%;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+	text-align: right;}
 
 p {
 	font-size: 1em;
@@ -144,6 +155,7 @@ p {
   color: #FFFFFF;
   text-align: right;
 	display: block;
+}
 
 /* Anchor Styles */
 a:link {
@@ -249,7 +261,6 @@ hr {
   text-decoration: underline;
 }
 
-
 .thumbnailleft{
 	float: left;
 	padding-right: 10px;
@@ -258,4 +269,6 @@ hr {
 .thumbnailright{
 	float: right;
 	padding-left: 10px;
+}
+.p1 {
 }
