@@ -140,6 +140,11 @@ p {
 	text-align: center;
 }
 
+.intro-highlight {
+  color: #FFFFFF;
+  text-align: right;
+	display: block;
+
 /* Anchor Styles */
 a:link {
 	color: #00897B; /* Light green for unvisited links */
