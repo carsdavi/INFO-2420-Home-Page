@@ -41,11 +41,12 @@ article {
 
 .logo {
   display: block;
-  width: 300px; /* Adjust width to match your logo */
-  height: 150px; /* Adjust height to match your logo */
+  width: 500px; /* Adjust width to match your logo */
+  height: 250px; /* Adjust height to match your logo */
   background-image: url('./logo1.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+background-position: center;
   transition: background-image 0.3s ease-in-out;
 }
 
