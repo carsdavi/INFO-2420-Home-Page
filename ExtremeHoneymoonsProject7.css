@@ -24,6 +24,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 20px;
+	text-align: center;
 }
 
 article {
@@ -122,18 +123,21 @@ float: right;
 
 h1 {
 	font-size: 2em;
-	color: #2A0A5E;   
+	color: #2A0A5E;
+	text-align: center;
 }
 
 h2 {
 	font-size: 1.5em; 
-    color: #37474F;   
+    color: #37474F;
+	text-align: center;
 }   
 
 p {
 	font-size: 1em;
     line-height: 1.5;
     margin-bottom: 1em;
+	text-align: center;
 }
 
 /* Anchor Styles */
@@ -216,6 +220,30 @@ hr {
   max-width: 100%;
   display: block;
 }
+
+#site-footer {
+  width: 900px;
+  margin: 40px auto 0 auto; /* centers footer like the header */
+  padding: 20px;
+  background-color: #8D6E63; /* use a matching color from your palette */
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#site-footer a {
+  color: #FFCC80; /* optional accent color */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#site-footer a:hover {
+  text-decoration: underline;
+}
+
 
 .thumbnailleft{
 	float: left;
