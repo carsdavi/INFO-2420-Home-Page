@@ -1,11 +1,9 @@
-@charset "utf-8";
-/* CSS Document */
-
-body{margin:0;
-		background-image: url("./background5.gif");
-		font-family:Arial, Helvetica, sans-serif;
-		height:auto;
-	}
+﻿body {
+	margin:0;
+	background-image:url('Images/background.gif');
+	font-family:Arial, Helvetica, sans-serif;
+	height:auto;
+}
 
 header {
 	width: 760px;
@@ -14,40 +12,31 @@ header {
 	text-align: center;
 	padding-top: 10px;
 	border: dashed medium navy;
-	margin: auto;
-		
+	margin:auto;
 }
 
 section {
 	width: 760px;
-	background-image: url('./inner_background.gif');
-	background-repeat: repeat-y;
+	background-image:url('Images/inner_background.gif');
+	background-repeat:repeat-y;
 	overflow: hidden;
 	border-right: dashed medium navy;
-	border-left; dashed medium navy;
-	margin: auto;
-	
+	border-left: dashed medium navy;
+	margin:auto;
 }
-
 
 nav {
 	float: left;
 	width: 110px;
 	padding-left: 10px;
-	
-	
 }
-
 
 article {
 	float: left;
 	width: 600px;
 	padding: 5px;
 	text-align: center;
-	
-	
 }
-
 
 footer {
 	text-align: center;
@@ -56,14 +45,12 @@ footer {
 	border: medium dashed #000080;
 	background-color: #CCC;
 	margin: auto;
-	
 }
 
 .logoleft {
 	float: left;
 	padding-top: 30px;
 	padding-left: 15px;
-	
 }
 
 nav a {
@@ -74,12 +61,10 @@ nav a {
 	font-weight: bold;
 	font-size: 17px;
 	text-decoration: none;
-	
 }
-
 
 nav a:hover {
 	color: yellow;
 	border: 2px outset #CCC;
-	
 }
+
