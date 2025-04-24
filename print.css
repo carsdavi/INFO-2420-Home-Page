@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: white;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100%;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+}
+
+header, section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: none;
+}
+
+article {
+  width: 95%;
+  margin: 0 auto 20px auto;
+  padding: 20px;
+  float: none;
+  background-color: white;
+  border: none;
+  box-shadow: none;
+}
+
+nav, .site-nav, #site-footer {
+  display: none;
+}
+
+h1, h2, h3 {
+  color: black;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.6;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
